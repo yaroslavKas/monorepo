@@ -1,0 +1,13 @@
+build/
+build-script/
+coverage/
+node_modules/
+package-lock.json
+package.json
+vendor/
+public/
+postman/
+src/icons
+src/images
+src/locales
+README.md

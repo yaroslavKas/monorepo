@@ -1,12 +1,14 @@
 {
-  "name": "@monorepo/kas",
+  "name": "@monorepo/root",
   "private": true,
   "workspaces": [
     "packages/*",
     "services/*"
   ],
   "scripts": {
-    "test": "lerna run test"
+    "lint": "prettier --write ./packages/front/src/App.tsx",
+    "test": "lerna run test",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -17,6 +19,7 @@
     "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.6",
     "fantasticon": "^1.2.3",
+    "husky": "^8.0.0",
     "lerna": "^6.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -44,9 +47,10 @@
   },
   "dependencies": {
     "lint-staged": "^13.0.3",
-    "node-sass": "^7.0.3"
+    "node-sass": "^7.0.3",
+    "prettier": "^2.7.1"
   },
   "lint-staged": {
-    "*.{ts,tsx,scss}": "prettier --check"
+    "*.{ts,tsx,scss}": "prettier --write ./packages/front/src/App.tsx"
   }
 }
