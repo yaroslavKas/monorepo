@@ -28,6 +28,5 @@ yarn-error.log*
 
 .idea
 yarn.lock
-/services/icons/src/fonts/front_icon.*
-#/packages/frontOffice/public/fonts/fronticon/fronticon.*
+#/services/icons/src/fonts/front_icon.*
 /translationTool/untranslated/
