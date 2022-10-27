@@ -1,3 +1,3 @@
-export const lolll = (data:string) => {
-    return data
-}
+export const lolll = (data: string) => {
+    return data;
+};

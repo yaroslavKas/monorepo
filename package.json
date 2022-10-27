@@ -6,7 +6,7 @@
     "services/*"
   ],
   "scripts": {
-    "lint": "prettier --write ./packages/front/src/App.tsx",
+    "lint": "prettier --write ./services ./packages",
     "test": "yarn workspaces run test --watchAll=false",
     "prepare": "husky install",
     "pre-push": "yarn test"
@@ -52,6 +52,6 @@
     "prettier": "^2.7.1"
   },
   "lint-staged": {
-    "*.{ts,tsx,scss}": "prettier --write ./packages/front/src/App.tsx"
+    "*.{ts,tsx,scss}": "prettier --write ./services ./packages"
   }
 }
