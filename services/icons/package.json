@@ -7,6 +7,6 @@
   "author": "",
   "license": "ISC",
   "scripts": {
-    "test": "react-scripts test"
+    "test": "react-scripts test --passWithNoTests"
   }
 }

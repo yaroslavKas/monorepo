@@ -7,8 +7,7 @@
   ],
   "scripts": {
     "lint": "prettier --write ./packages/front/src/App.tsx",
-    "test2": "lerna run test",
-    "test": "yarn workspaces run test",
+    "test": "yarn workspaces run test --watchAll=false",
     "prepare": "husky install",
     "pre-push": "yarn test"
   },
