@@ -7,8 +7,10 @@
   ],
   "scripts": {
     "lint": "prettier --write ./packages/front/src/App.tsx",
-    "test": "lerna run test",
-    "prepare": "husky install"
+    "test2": "lerna run test",
+    "test": "yarn workspaces run test",
+    "prepare": "husky install",
+    "pre-push": "yarn test"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.16.5",
