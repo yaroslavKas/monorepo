@@ -9,7 +9,8 @@
         "@typescript-eslint/no-shadow": "error",
         "prefer-const": "error",
         "no-console": "error",
-        "no-empty": "error"
+        "no-empty": "error",
+        "no-var": "error"
     },
     "overrides": [
         {

@@ -1,20 +1,20 @@
 import React from 'react';
 import Button from '@monorepo/button';
-import './index.scss';
 import { Icon, SvgIcon } from '@monorepo/icons';
-
 import Input from '@monorepo/input';
 
 import './App.css';
 
+import './index.scss';
+
 function App() {
     // const lol = ['fgfdg', 33333333333333333, 'dfsffffffffffffffff', 'dfsffffffffffffffff'];
-    const a = 3;
-    function b() {
-        const a = 10;
-        console.log(a);
-    }
-    let flol = {
+    // const a = 3;
+    // function b() {
+    //     const a = 10;
+    //     console.log(a);
+    // }
+    const flol = {
         lol: 2,
         tes: 5,
         lols: 'ghgh',
@@ -22,7 +22,7 @@ function App() {
     };
     flol.tes = 8;
 
-    if (flol) console.log('ddd');
+    // if (flol) console.log('ddd');
 
     var lolll = 'dfdsf';
 
@@ -30,7 +30,7 @@ function App() {
     }
     const lol = ['fff'];
 
-    console.log(lol);
+    // console.log(lol);
 
     // console.log(a)
     // console.log(b)
