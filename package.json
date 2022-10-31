@@ -9,10 +9,10 @@
         "prettier:all": "prettier --write ./services ./packages",
         "test": "yarn workspaces run test --watchAll=false",
         "lint": "eslint --ext .ts,.tsx ./packages ./services",
-        "lint:push": "eslint --config ./.eslintrc-push.json ./packages ./services",
-        "lint:fix": "yarn lint --fix",
+        "lint:push": "eslint --ext .ts,.tsx --config ./.eslintrc-push.json ./packages ./services",
+        "lint:fix": "yarn lint:push --fix",
         "prepare": "husky install",
-        "pre-push": "yarn test && yarn lint:push"
+        "pre-push": "yarn lint:fix && yarn test"
 
     },
     "devDependencies": {

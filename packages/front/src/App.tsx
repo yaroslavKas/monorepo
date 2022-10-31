@@ -14,7 +14,7 @@ function App() {
         const a = 10;
         console.log(a);
     }
-    const flol = {
+    let flol = {
         lol: 2,
         tes: 5,
         lols: 'ghgh',
@@ -24,7 +24,7 @@ function App() {
 
     if (flol) console.log('ddd');
 
-    const lolll = 'dfdsf';
+    var lolll = 'dfdsf';
 
     if (lolll) {
     }
