@@ -20,9 +20,9 @@ function App() {
         lols: 'ghgh',
         sfddf: 'fff',
     };
-    flol.tes = 8;
+    flol.tes = 13;
 
-    if (flol) console.log('ddd');
+    // if (flol) console.log('ddd');
 
     // const lolll = 'dfdsf';
 
