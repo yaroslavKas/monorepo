@@ -22,7 +22,7 @@ function App() {
     };
     flol.tes = 8;
 
-    // if (flol) console.log('ddd');
+    if (flol) console.log('ddd');
 
     // const lolll = 'dfdsf';
 
