@@ -6,12 +6,11 @@
         "services/*"
     ],
     "scripts": {
+        "prepare": "husky install",
         "prettier:all": "prettier --write ./services ./packages",
         "test": "yarn workspaces run test --watchAll=false",
-        "lint": "eslint --ext .ts,.tsx ./packages ./services",
-        "lint:push": "eslint --ext .ts,.tsx --config ./.eslintrc-push.json ./packages ./services",
-        "lint:fix": "yarn lint:push --fix",
-        "prepare": "husky install",
+        "lint": "eslint --ext .ts,.tsx --config ./.eslintrc-push.json ./packages ./services",
+        "lint:fix": "yarn lint --fix",
         "pre-push": "yarn lint:fix && yarn test"
 
     },
