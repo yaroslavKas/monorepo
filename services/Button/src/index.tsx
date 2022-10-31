@@ -1,6 +1,6 @@
-import React, { useEffect } from 'react';
-
 import './index.scss';
+
+import React, { useEffect } from 'react';
 
 const Button = ({ content }: any) => {
     useEffect(() => {
