@@ -13,7 +13,6 @@
         "lint:push": "eslint --ext .ts,.tsx --config ./.eslintrc-push.json ./packages ./services",
         "lint:fix": "yarn lint --fix",
         "pre-push": "yarn lint:push && yarn test"
-
     },
     "devDependencies": {
         "@testing-library/jest-dom": "^5.16.5",
@@ -24,18 +23,18 @@
         "@types/react": "^18.0.21",
         "@types/react-dom": "^18.0.6",
         "eslint-import-resolver-typescript": "^3.5.2",
+        "eslint-plugin-simple-import-sort": "^8.0.0",
         "fantasticon": "^1.2.3",
         "husky": "^8.0.0",
         "lerna": "^6.0.1",
+        "lint-staged": "^13.0.3",
+        "node-sass": "^7.0.3",
+        "prettier": "^2.7.1",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
         "react-scripts": "5.0.1",
         "typescript": "^4.8.4",
-        "web-vitals": "^2.1.4",
-        "eslint-plugin-simple-import-sort": "^8.0.0",
-        "lint-staged": "^13.0.3",
-        "node-sass": "^7.0.3",
-        "prettier": "^2.7.1"
+        "web-vitals": "^2.1.4"
     },
     "browserslist": {
         "production": [
@@ -50,6 +49,11 @@
         ]
     },
     "lint-staged": {
-        "*.{ts,tsx,scss}": ["yarn prettier:all", "yarn lint:fix"]
+        "*.{ts,tsx,scss}": "yarn prettier:all",
+        "*.{ts,tsx}": "yarn lint:fix"
+    },
+    "dependencies": {
+        "@material-ui/core": "^4.12.4",
+        "lodash": "^4.17.21"
     }
 }

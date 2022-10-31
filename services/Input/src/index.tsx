@@ -1,11 +1,13 @@
-import React from 'react';
+import { FormControl, TextField } from '@material-ui/core';
 import Button from '@monorepo/button';
 
 const Input = () => {
     return (
         <div>
-            <Button content='input ' />
-            <input type='text' className='button' />
+            <Button content='input' />
+            <FormControl>
+                <TextField variant='outlined' label='lol' value='' type='test' />
+            </FormControl>
         </div>
     );
 };
