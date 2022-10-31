@@ -24,11 +24,11 @@ function App() {
 
     // if (flol) console.log('ddd');
 
-    var lolll = 'dfdsf';
+    // const lolll = 'dfdsf';
 
-    if (lolll) {
-    }
-    const lol = ['fff'];
+    // if (lolll) {
+    // }
+    // const lol = ['fff'];
 
     // console.log(lol);
 
