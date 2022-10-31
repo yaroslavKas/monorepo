@@ -5,7 +5,7 @@ import { ddff23lolll } from '../utils';
  * */
 describe('#kidfsdfdsfdsfds', function () {
     it('all expected', () => {
-        const input = 'l0lll 44';
+        const input = 'l0lll 448';
         const output = 'l0lll 44';
         expect(ddff23lolll(input)).toEqual(output);
     });

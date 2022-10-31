@@ -1,4 +1,5 @@
 import React from 'react';
+
 import svgIcons from '../components/SvgIcon';
 
 export type SVGProps = React.DetailedHTMLProps<React.HTMLAttributes<SVGElement>, SVGElement>;

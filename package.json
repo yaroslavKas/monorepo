@@ -1,57 +1,55 @@
 {
-  "name": "@monorepo/root",
-  "private": true,
-  "workspaces": [
-    "packages/*",
-    "services/*"
-  ],
-  "scripts": {
-    "prettier:all": "prettier --write ./services ./packages",
-    "test": "yarn workspaces run test --watchAll=false",
-    "prepare": "husky install",
-    "pre-push": "yarn test"
-  },
-  "devDependencies": {
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "@types/jest": "^27.5.2",
-    "@types/node": "^16.18.0",
-    "@types/react": "^18.0.21",
-    "@types/react-dom": "^18.0.6",
-    "fantasticon": "^1.2.3",
-    "husky": "^8.0.0",
-    "lerna": "^6.0.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
-    "typescript": "^4.8.4",
-    "web-vitals": "^2.1.4"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
+    "name": "@monorepo/root",
+    "private": true,
+    "workspaces": [
+        "packages/*",
+        "services/*"
     ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "dependencies": {
-    "lint-staged": "^13.0.3",
-    "node-sass": "^7.0.3",
-    "prettier": "^2.7.1"
-  },
-  "lint-staged": {
-    "*.{ts,tsx,scss}": "yarn prettier:all"
-  }
+    "scripts": {
+        "prettier:all": "prettier --write ./services ./packages",
+        "test": "yarn workspaces run test --watchAll=false",
+        "lint": "eslint --ext .ts,.tsx ./packages ./services",
+        "lint:push": "eslint --config ./.eslintrc-push.json ./packages ./services",
+        "lint:fix": "yarn lint --fix",
+        "prepare": "husky install",
+        "pre-push": "yarn test && yarn lint:push"
+
+    },
+    "devDependencies": {
+        "@testing-library/jest-dom": "^5.16.5",
+        "@testing-library/react": "^13.4.0",
+        "@testing-library/user-event": "^13.5.0",
+        "@types/jest": "^27.5.2",
+        "@types/node": "^16.18.0",
+        "@types/react": "^18.0.21",
+        "@types/react-dom": "^18.0.6",
+        "eslint-import-resolver-typescript": "^3.5.2",
+        "fantasticon": "^1.2.3",
+        "husky": "^8.0.0",
+        "lerna": "^6.0.1",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-scripts": "5.0.1",
+        "typescript": "^4.8.4",
+        "web-vitals": "^2.1.4",
+        "eslint-plugin-simple-import-sort": "^8.0.0",
+        "lint-staged": "^13.0.3",
+        "node-sass": "^7.0.3",
+        "prettier": "^2.7.1"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "lint-staged": {
+        "*.{ts,tsx,scss}": "yarn prettier:all"
+    }
 }

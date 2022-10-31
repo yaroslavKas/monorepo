@@ -1,6 +1,9 @@
 import React, { FC } from 'react';
+
 import { SvgIconProps } from '../../types';
+
 import svgIcons from './icons';
+
 import './index.scss';
 
 const SvgIcon: FC<SvgIconProps> = ({ name, className = '', title = '', defaultIcon = '', ...props }) => {
