@@ -1,6 +1,10 @@
 {
     "extends": ["react-app", "react-app/jest"],
     "plugins": ["react", "simple-import-sort"],
+//    "parserOptions": {
+//        // Required for certain syntax usages
+//        "ecmaVersion": 2022
+//    },
     "rules": {
         "simple-import-sort/imports": "warn",
         "simple-import-sort/exports": "warn",
