@@ -1,9 +1,6 @@
 {
     "extends": ["react-app", "react-app/jest"],
-    "plugins": ["react", "simple-import-sort"],
     "rules": {
-        "simple-import-sort/imports": "warn",
-        "simple-import-sort/exports": "warn",
         "@typescript-eslint/no-use-before-define": "error",
         "@typescript-eslint/no-unused-vars": "error",
         "@typescript-eslint/no-shadow": "error",
@@ -11,25 +8,5 @@
         "no-console": "error",
         "no-empty": "error",
         "no-var": "error"
-    },
-    "overrides": [
-        {
-            "files": ["*.js", "*.jsx", "*.ts", "*.tsx"],
-            "rules": {
-                "simple-import-sort/imports": [
-                    "error",
-                    {
-                        "groups": [
-                            ["^react", "^@?\\w"],
-                            ["^(@|components)(/.*|$)"],
-                            ["^\\u0000"],
-                            ["^\\.\\.(?!/?$)", "^\\.\\./?$"],
-                            ["^\\./(?=.*/)(?!/?$)", "^\\.(?!/?$)", "^\\./?$"],
-                            ["^.+\\.?(scss)$"]
-                        ]
-                    }
-                ]
-            }
-        }
-    ]
+    }
 }
