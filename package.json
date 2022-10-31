@@ -50,6 +50,6 @@
         ]
     },
     "lint-staged": {
-        "*.{ts,tsx,scss}": ["yarn prettier:all", "eslint --ext .ts,.tsx ./packages ./services"]
+        "*.{ts,tsx,scss}": ["yarn prettier:all", "yarn lint:fix"]
     }
 }
