@@ -22,12 +22,12 @@ function App() {
     };
     flol.tes = 13;
 
-    // if (flol) console.log('ddd');
+    if (flol) console.log('ddd');
 
-    // const lolll = 'dfdsf';
+    const lolll = 'dfdsf';
 
-    // if (lolll) {
-    // }
+    if (lolll) {
+    }
     // const lol = ['fff'];
 
     // console.log(lol);
