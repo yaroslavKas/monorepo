@@ -5,15 +5,17 @@ import Input from '@monorepo/input';
 
 import './App.css';
 
+import Toof from './Too';
+
 import './index.scss';
 
 function App() {
     // const lol = ['fgfdg', 33333333333333333, 'dfsffffffffffffffff', 'dfsffffffffffffffff'];
-    // const a = 3;
-    // function b() {
-    //     const a = 10;
-    //     console.log(a);
-    // }
+    const a = 3;
+    function b() {
+        const a = 10;
+        console.log(a);
+    }
     const flol = {
         lol: 2,
         tes: 5,
@@ -38,6 +40,7 @@ function App() {
         <div className='App'>
             <Button content={'lodfkdslfksd'} />
             <Input />
+            <Toof />
             <Icon name='delete_0' />
             <Icon name='error_0' />
             <Icon name='function_0' />

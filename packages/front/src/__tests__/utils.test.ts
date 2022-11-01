@@ -5,7 +5,7 @@ import { lolll } from '../utils';
  * */
 describe('#getOnlineControllers', function () {
     it('all expected', () => {
-        const input = 'l0lll';
+        const input = 'l0lll 8';
         const output = 'l0lll';
         expect(lolll(input)).toEqual(output);
     });
