@@ -12,6 +12,8 @@
         "lint": "eslint ./packages ./services",
         "lint:push": "eslint --ext .ts,.tsx --config ./.eslintrc-push.json ./packages ./services",
         "lint:fix": "yarn lint --fix",
+        "lint:scss": "stylelint ./services/**/src ./packages/**/src",
+        "lint:scss:fix": "yarn lint:scss --fix",
         "pre-push": "yarn lint:push && yarn test"
     },
     "devDependencies": {
@@ -33,6 +35,7 @@
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
         "react-scripts": "5.0.1",
+        "stylelint-config-prettier": "^9.0.3",
         "typescript": "^4.8.4",
         "web-vitals": "^2.1.4"
     },
@@ -50,10 +53,18 @@
     },
     "lint-staged": {
         "*.{ts,tsx,scss}": "yarn prettier:all",
-        "*.{ts,tsx}": "yarn lint:fix"
+        "*.{ts,tsx}": "yarn lint:fix",
+        "*.scss": "yarn lint:scss:fix"
     },
     "dependencies": {
         "@material-ui/core": "^4.12.4",
-        "lodash": "^4.17.21"
+        "eslint": "^8.26.0",
+        "lodash": "^4.17.21",
+        "stylelint": "^14.14.0",
+        "stylelint-config-clean-order": "^2.0.0",
+        "stylelint-config-standard": "^29.0.0",
+        "stylelint-config-standard-scss": "^6.0.0",
+        "stylelint-order": "^5.0.0",
+        "stylelint-scss": "^4.3.0"
     }
 }

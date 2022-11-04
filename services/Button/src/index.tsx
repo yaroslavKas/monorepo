@@ -1,19 +1,21 @@
 import React, { useEffect } from 'react';
 
-import './index.scss';
+// import './index.scss';
+import styles from './index.module.scss';
 
 const Button = ({ content }: any) => {
     useEffect(() => {}, []);
 
-    // let a = 3;
-    // function b() {    let a = 10;
-    //     console.log(a)
-    // }
+    const a = 3;
+    function b() {
+        const a = 10;
+        console.log(a);
+    }
 
     return (
-        <div>
+        <div className={styles.bull}>
             <p>Users:</p>
-            <button className='button'>{content}</button>
+            <button className={styles.button}>{content}</button>
         </div>
     );
 };

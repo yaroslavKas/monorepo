@@ -3,11 +3,10 @@ import Button from '@monorepo/button';
 import { Icon, SvgIcon } from '@monorepo/icons';
 import Input from '@monorepo/input';
 
+import Toof from './components/Too';
+
 import './App.css';
-
-import Toof from './Too';
-
-import './index.scss';
+import styles from './index.module.scss';
 
 function App() {
     // const lol = ['fgfdg', 33333333333333333, 'dfsffffffffffffffff', 'dfsffffffffffffffff'];
@@ -28,8 +27,8 @@ function App() {
 
     const lolll = 'dfdsf';
 
-    if (lolll) {
-    }
+    // if (lolll) {
+    // }
     // const lol = ['fff'];
 
     // console.log(lol);

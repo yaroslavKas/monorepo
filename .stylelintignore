@@ -1,0 +1,11 @@
+*.tsx
+*.jsx
+*.ts
+*.js
+*.md
+*.svg
+*.ttf
+*.woff
+*.woff2
+front_icon.scss
+/node_modules

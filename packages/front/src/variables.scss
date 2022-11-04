@@ -1,0 +1,269 @@
+// font family
+
+#root {
+    $background-color: #3e46ae;
+}
+
+$ezloSans: 'Ezlo Sans';
+
+// COLORS
+
+$color-white: #fff;
+$color-black: #000;
+$color-bg-card: #e3eeff;
+$color-bg-card-odd: #e6fdff;
+$color-bg-card-even: #edf9ff;
+$font-size: 16px;
+$line-height: 20px;
+$lines-to-show: 3;
+$color-bg-group: #e0fafc;
+
+// const colors = ["#e6fdff", "#edf9ff", "#e0fafc", "#e3eeff"]
+
+$body-bg: #fbfbfb;
+$left-sidebar-bg-color: #3e4292;
+$left-sidebar-text-color: #fff;
+$base-color: #2fabea;
+$base-color-hover: #60c9ff;
+$base-color-active: #1596d8;
+$icon-link-color: #c9c9c9;
+$base-color-input-focus: #a9dbf4;
+$danger-color-input-focus: #ea2f2f;
+$danger-color: #ea2f2f;
+$success-color: #48cd76;
+$base-text-color: #3f3f3f;
+$secondary-text-color: #8c8c8c;
+$light-gray: #e8e8e8;
+$ezlo-dark-gray: #091820;
+$ezlo-dark-blue: #2d7098;
+$item-icon-off-color: #a8b2d0;
+$item-icon-on-color: #fff;
+$orange-color: rgb(254 92 21 / 100%);
+
+// SIZES
+$sidebar-bg-width: 360px;
+$sidebar-sm-width: 90px;
+$panel-width: 360px;
+$right-panel-width: 384px;
+$room-panel-width: 270px;
+$border-radius-for-btn: 5px;
+
+// TODO --------- NEW DESIGN ---------- //
+
+// COMMON COLORS
+$warning-color: #f77;
+$disabled-color: #a8b2d0;
+$toggle-color: #686dce;
+$button-color: #686dce;
+$button-hover-color: #777f97;
+$button-pressed-color: #3e4292;
+$link-color: #686dce;
+$link-hover-color: #777f97;
+$link-pressed-color: #3e4292;
+$switcher-color: #50e3c2;
+$sidebar-link-color: #50e3c2;
+$sidebar-toggle-color: #50e3c2;
+$sidebar-button-color: #50e3c2;
+$sidebar-button-hover-color: rgb(80 227 194 / 10%);
+$scene-button-color: #50e3c2;
+$notifications-button-color: #50e3c2;
+$notifications-button-bg-color: #4e55a3;
+$notifications-button-hover-color: rgb(80 227 194 / 10%);
+$favorites-color: #ffc616;
+$collapsed-activity-color: #6798ff;
+$divider-color: rgb(168 178 208 / 40%);
+$sidebar-divider-color: #7075ab;
+$shadow-color: #091820;
+$border-color: #cbdae6;
+$left-border-valid: #41b883;
+$left-border-inValid: #e64d4e;
+$left-border-saved: #2294e3;
+$border-inValid: #e64d4e;
+$color-inValid: $border-inValid;
+$border-valid: $color-white;
+$background-light-gray-color: #f8f8f8;
+$border-gray-color: #767676;
+
+// TEXT COLORS
+$primary-text-color: #3e4292;
+$main-text-color: #575d70;
+$additional-text-color: #777f97;
+
+// secondary-text-color: #a8b2d0;
+$sidebar-additional-text-color: #a8b2d0;
+$sidebar-additional-back-ground-color: #ecf7ff;
+$items-title-text-color: #3e4292;
+$text-color-description: #697580;
+
+// BACKGROUNDS COLORS
+$main-bg-color: #fff;
+$header-bg-color: #fff;
+$sidebar-bg-color: #fff;
+$sidebar-active-item-bg-color: rgb(144 160 175 / 15%);
+$sidebar-hover-item-bg-color: #4f5287;
+$header-notifications-bg-color: #3e4292;
+$error-bg: #f6dede;
+$ezlo-section-bg-color: #fff;
+$virtual-device-manager-page-bg-color: #d8f8ff;
+$grey-bg: #999;
+$paper-bg-color: #fff;
+
+// GRADIENTS
+$dark-blue-gradient: linear-gradient(to bottom, #3e4292 0%, #686dce 100%);
+$dark-blue-flip-gradient: linear-gradient(to top, #3e4292 0%, #686dce 100%);
+$light-blue-gradient: linear-gradient(135deg, #d2d7f5 0%, #a7afd8 100%);
+$light-blue-flip-gradient: linear-gradient(270deg, #d2d7f5 0%, #a7afd8 100%);
+$cyan-gradient: linear-gradient(to bottom, #2df8cf 0%, #40b3f3 100%);
+
+// FONT SIZES
+$widget-font-size: 3.4rem;
+$h1-font-size: 2.4rem;
+$h2-font-size: 2rem;
+$main-text-font-size: 1rem;
+$widget-value-font-size: 1.6rem;
+$additional-text-font-size: 1.4rem;
+$menu-item-font-size: 1.6rem;
+$menu-item-line-height: 2.3rem;
+
+// SIZES
+$left-sidebar-width: 128px;
+$left-panel-width: 395px;
+$header-height: 8rem;
+$room-block-horizontal-padding: 4.8rem;
+
+// offsets
+$inside-page-padding-left: 5rem;
+$inside-page-padding-top: 3rem;
+
+// Gradient
+$rgb-slider-gradient: linear-gradient(
+    90deg,
+    rgb(246 149 2 / 100%) 0%,
+    rgb(13 199 233 / 100%) 25%,
+    rgb(11 236 63 / 100%) 50%,
+    rgb(217 19 19 / 100%) 75%,
+    rgb(19 12 228 / 100%) 100%
+);
+$break-d-xxx: 1450px; //  desktop-xxx
+$break-d-burger: 1201px; // desktop-burger
+$break-d-xx: 1200px; //  desktop-xx
+$break-d-x: 1150px; //  desktop-x
+$break-d-l: 1024px; //  desktop-l
+$break-d-m: 965px; //  desktop-m
+$break-d-m-meshbot: 940px;
+$break-d-s: 860px; //  desktop-s
+$break-t-l: 767px; //  tablet-l
+$break-t-l-expression: 760px; //  tablet-l-expression
+$break-t-m: 736px; //  tablet-m
+$break-t-m-expression: 729px; //  tablet-m-expression
+$break-t-s: 600px; //  tablet-s
+$break-m-l: 568px; //  mobile-l
+$break-m-m: 480px; //  mobile-m
+$break-m-s: 384px; //  mobile-s
+$break-m-xs: 320px; //  mobile-xs
+
+// NEW WEB UI DESIGN
+
+// SIZES
+$navigation-width: 280px;
+$navigation-logo-height: 18px;
+$navigation-logo-width: 64px;
+$navigation-logo-margin: 32px;
+$icon-container-height: 56px;
+$icon-container-width: 56px;
+$text-field-width: 440px;
+$text-field-height: 72px;
+$text-field-padding: 0 24px;
+$text-field-font-size: 18px;
+$text-field-line-height: 22px;
+$dialog-margin-top: 16px;
+$dialog-margin-right: 40px;
+$dialog-margin-bottom: 16px;
+$dialog-margin-left: 0;
+
+// TEXT COLORS
+$text-color-grey: #90a0af;
+$text-color-dark-grey: #697580;
+$text-color-black: #1c1e21;
+$text-color-warning: #fe5c15;
+$text-color-warning2: #ecca02;
+$text-color-warning-3: #e83f0f;
+$text-color-blue: #3e46ae;
+$text-color-warning-3: #e83f0f;
+$text-color-blue: var(--background-color);
+$color-button-blue: var(--background-color);
+$color-button-blue-hover: var(--background-color);
+$color-button-grey: #e0e0e0;
+$color-button-grey-1: #bdbdbd;
+$color-button-grey-2: #ccc;
+$color-button-grey-3: #6f6b6b;
+$color-button-grey-4: #efefef;
+$color-button-grey-5: #eef1f3;
+$color-button-grey-hover: #d5d5d5;
+$color-card: #0064ff;
+$color-device-1: #b5b9be;
+$color-device-3: #383a3b;
+$color-device-4: #adaeaf;
+$text-color-grey-basic: rgb(144 160 175 / 100%);
+$text-color-grey-basic-dark: rgb(105 117 128 / 100%);
+$text-color-basic-black: rgb(28 30 33 / 100%);
+
+// BUTTONS COLORS
+$color-warning-active: #f50057;
+$color-select-button-blue: #3e46ae;
+$color-chip-button-blue: #6e74c2;
+
+// COLORS
+$color-online: #6ba543;
+$color-orange-1: #dcc896;
+$color-orange-2: #fdf8e9;
+$color-orange-3: #faf4b0;
+$color-orange-4: #dfdf77;
+$color-orange-weak: #fec2b4;
+$color-orange-meshbot-1: #e15f41;
+$color-orange-meshbot-2: #ffc2b4;
+$color-orange-meshbot-3: #ffde2a;
+$color-light-blue: #f1f2fa;
+$color-blue-1: #1b85fb;
+$color-blue-2: #d0e6f6;
+$color-blue-3: #414bb2;
+$color-ocean-1: #3dc1d3;
+$color-ocean-2: #9bdee6;
+$color-ocean-3: #b6f1f8;
+$color-ocean-4: #f1f2fa;
+
+// BORDER STYLE
+$border-style: 1px solid rgb(144 160 175 / 25%);
+$border-radius: 12px;
+
+// BACKGROUNDS
+$color-tooltip-background: #f9fafb;
+$color-message-information-background: #f7f7f7;
+$border-color-meshbot: #c7cfd7;
+$meshbot-trigger-section: #ec6733;
+$meshbot-action-section: #3e46ae;
+$meshbot-action-tab-border-false: #e2e5e7;
+$meshbot-action-tab-border-active: #3085f3;
+$trigger_exception_button: #3085f3;
+$trigger_exception_bg: #e7effa;
+$meshbot-action-block: #f1f1f1;
+$meshbot-delete-icon: #1c1e21;
+$meshbot-icon-color: #1c1e21;
+$color-meshbot-section: #f9fafb;
+$color-grey: #d5d7da;
+$month-item-bg: $color-grey;
+$info-btn-color: $color-grey;
+$radio-button-label: #515151;
+$radio-button-bg-active: #30336b;
+$delay-block-border: #888;
+$trigger_connection_color: #333;
+$trigger_group_bg: #f1f1f1;
+$controller_function_button_color: #4251af;
+$controller_function_button_icon: #757575;
+
+// CURSORS
+// $pointer-cursor: url("data:image/svg+xml;charset=UTF-8,%3csvg width='56' height='66' viewBox='0 0 56 66' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cg filter='url(%23filter0_d)'%3e%3cpath d='M41.7608 56V51.2C41.7608 50.2 41.9608 49.2 42.2608 48.2L45.6608 36.9C46.4608 34.3 45.1608 31.5 42.7608 30.4L32.0608 25.5C30.3608 24.7 29.2608 23 29.2608 21.2V11.2C29.2608 9.4 27.8608 8 26.0608 8C24.2608 8 22.8608 9.4 22.8608 11.2V33.3C22.8608 34.5 21.5608 35.3 20.4608 34.7L13.7608 30.9C11.8608 29.8 9.56082 30.9 9.06083 33.1C8.86083 34.1 9.16082 35.1 9.86082 35.9L21.3608 48C22.3608 49 22.8608 50.4 22.8608 51.9V56' fill='white'/%3e%3cpath d='M41.7608 56V51.2C41.7608 50.2 41.9608 49.2 42.2608 48.2L45.6608 36.9C46.4608 34.3 45.1608 31.5 42.7608 30.4L32.0608 25.5C30.3608 24.7 29.2608 23 29.2608 21.2V11.2C29.2608 9.4 27.8608 8 26.0608 8C24.2608 8 22.8608 9.4 22.8608 11.2V33.3C22.8608 34.5 21.5608 35.3 20.4608 34.7L13.7608 30.9C11.8608 29.8 9.56083 30.9 9.06083 33.1C8.86083 34.1 9.16082 35.1 9.86082 35.9L21.3608 48C22.3608 49 22.8608 50.4 22.8608 51.9V56' stroke='black' stroke-width='2.25' stroke-miterlimit='10'/%3e%3c/g%3e%3cdefs%3e%3cfilter id='filter0_d' x='-5' y='0' width='66' height='66' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'%3e%3cfeFlood flood-opacity='0' result='BackgroundImageFix'/%3e%3cfeColorMatrix in='SourceAlpha' type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0' result='hardAlpha'/%3e%3cfeOffset dy='5'/%3e%3cfeGaussianBlur stdDeviation='2.5'/%3e%3cfeColorMatrix type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0'/%3e%3cfeBlend mode='normal' in2='BackgroundImageFix' result='effect1_dropShadow'/%3e%3cfeBlend mode='normal' in='SourceGraphic' in2='effect1_dropShadow' result='shape'/%3e%3c/filter%3e%3c/defs%3e%3c/svg%3e") 24 10;
+
+$button-hover-box-shadow-color: rgb(144 160 175 / 30%);
+$button-active-background-color: rgb(144 160 175 / 15%);
+$table-border-color: rgb(123 125 128 / 15%);
