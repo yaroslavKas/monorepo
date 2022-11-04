@@ -1,4 +1,4 @@
-@import './variables';
+@import "./variables";
 
 // Calcul em size depending of the context
 // Use em(fontSizeDoIWantInEm, fontContextInEM)
@@ -70,19 +70,19 @@
 }
 
 @mixin placeholder {
-    @include optional-at-root('::-webkit-input-placeholder') {
+    @include optional-at-root("::-webkit-input-placeholder") {
         @content;
     }
 
-    @include optional-at-root(':-moz-placeholder') {
+    @include optional-at-root(":-moz-placeholder") {
         @content;
     }
 
-    @include optional-at-root('::-moz-placeholder') {
+    @include optional-at-root("::-moz-placeholder") {
         @content;
     }
 
-    @include optional-at-root(':-ms-input-placeholder') {
+    @include optional-at-root(":-ms-input-placeholder") {
         @content;
     }
 }
