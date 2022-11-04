@@ -6,7 +6,7 @@
         "at-rule-no-unknown": null,
         "scss/at-rule-no-unknown": true,
         "scss/dollar-variable-pattern": null,
-        "indentation": 4,
+        "indentation": null,
         "no-empty-source": null,
         "declaration-empty-line-before": null,
         "no-missing-end-of-source-newline": null,
