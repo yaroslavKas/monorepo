@@ -15,9 +15,9 @@ function App() {
         const a = 10;
         console.log(a);
     }
-    const flol = {
-        lol: 2,
-        tes: 5,
+    const flol ={
+                lol: 6,
+        tes: 9,
         lols: 'ghgh dfsd dddd',
         sfddf: 'fff7ykk',
     };

@@ -1,19 +1,20 @@
 .bull {
-    height: 50px;
-    margin: 20px;
-    padding: 12px;
-    display: flex;
+  height: 50px;
+  margin: 20px;
+  padding: 12px;
+  display: flex;
 
-    // flex-wrap: $wrap;
+  // flex-wrap: $wrap;
 
-    background: #000;
+  background: #000;
 }
 
 .button {
-    color: #fff;
-    background: #000;
-    &:hover {
-        cursor: pointer;
-        padding: 10px 35px;
-    }
+  color: #fff;
+  background: #000;
+
+  &:hover {
+    cursor: pointer;
+    padding: 10px 35px;
+  }
 }
