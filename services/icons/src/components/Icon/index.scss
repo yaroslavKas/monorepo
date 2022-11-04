@@ -1,10 +1,10 @@
 .icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: var(--font-size-2xl);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-2xl);
 }
 
 .sport::before {
-    content: '\f100';
+  content: "\f100";
 }
