@@ -13,7 +13,7 @@ function App() {
     const a = 3;
     function b() {
         const a = 10;
-        console.log(a);
+        console.log(a, a);
     }
     const flol = {
         lol: 2,
