@@ -10,7 +10,7 @@ import styles from './index.module.scss';
 
 function App() {
     // const lol = ['fgfdg', 33333333333333333, 'dfsffffffffffffffff', 'dfsffffffffffffffff'];
-    const a = 3;
+    const a = 5;
     function b() {
         const a = 10;
         console.log(a);
@@ -18,7 +18,7 @@ function App() {
     const flol = {
         lol: 2,
         tes: 5,
-        lols: 'ghgh dfsd',
+        lols: 'ghgh dfsd dddd',
         sfddf: 'fff7ykk',
     };
     flol.tes = 13;
