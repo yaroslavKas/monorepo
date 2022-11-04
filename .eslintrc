@@ -8,7 +8,7 @@
         "@typescript-eslint/no-unused-vars": "warn",
         "@typescript-eslint/no-shadow": "warn",
         "prefer-const": "warn",
-        "no-console": "warn",
+        "no-console": "error",
         "no-empty": "warn",
         "no-var": "warn"
     },
