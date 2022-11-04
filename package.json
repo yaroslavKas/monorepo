@@ -53,8 +53,8 @@
     },
     "lint-staged": {
         "*.{ts,tsx,scss}": "yarn prettier:all",
-        "*.{ts,tsx}": "yarn lint:fix"
-
+        "*.{ts,tsx}": "yarn lint:fix",
+        "*.scss": "yarn lint:scss:fix"
     },
     "dependencies": {
         "@material-ui/core": "^4.12.4",

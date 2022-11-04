@@ -9,7 +9,7 @@
         "@typescript-eslint/no-shadow": "warn",
         "prefer-const": "warn",
         "no-console": "error",
-        "no-empty": "warn",
+        "no-empty": "error",
         "no-var": "warn"
     },
     "overrides": [
