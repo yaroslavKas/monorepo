@@ -18,7 +18,7 @@ function App() {
     const flol = {
         lol: 2,
         tes: 5,
-        lols: 'ghgh',
+        lols: 'ghgh dfsd',
         sfddf: 'fff7ykk',
     };
     flol.tes = 13;
