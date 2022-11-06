@@ -6,15 +6,15 @@ import Input from '@monorepo/input';
 import Toof from './components/Too';
 
 import './App.css';
-import styles from './index.module.scss';
+// import styles from './index.module.scss';
 
 function App() {
     // const lol = ['fgfdg', 33333333333333333, 'dfsffffffffffffffff', 'dfsffffffffffffffff'];
-    const a = 5;
-    function b() {
-        const a = 10;
-        console.log(a);
-    }
+    // const a = 5;
+    // function b() {
+    //     const a = 10;
+    //     console.log(a);
+    // }
     const flol = {
         lol: 6,
         tes: 9,
@@ -23,9 +23,9 @@ function App() {
     };
     flol.tes = 13;
 
-    if (flol) console.log('ddd');
+    // if (flol) console.log('ddd');
 
-    const lolll = 'dfdsf';
+    // const lolll = 'dfdsf';
 
     // if (lolll) {
     // }

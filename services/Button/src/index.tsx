@@ -6,11 +6,11 @@ import styles from './index.module.scss';
 const Button = ({ content }: any) => {
     useEffect(() => {}, []);
 
-    const a = 3;
-    function b() {
-        const a = 10;
-        console.log(a);
-    }
+    // const a = 3;
+    // function b() {
+    //     const a = 10;
+    //     console.log(a);
+    // }
 
     return (
         <div className={styles.bull}>
